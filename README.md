@@ -7,7 +7,7 @@ This code was used for N-Gage 8-Kings games development ( https://www.gamesthatw
 
 # Code
 
-Looking through this code, as was typical for each new platform, it looks like I grabbed bits of platform specific example code to get a small working framework that had input, video, audio working and then exposed that with minimal interfaces to cross platform code.
+Looking through this code, as was typical for each new platform, it looks like I grabbed bits of platform specific example code from the SDK to get a small working framework. This was normal practice back in those days because we had to get stuff up an running on each new platform very quickly. This framework has minimal code to provide input, video, audio and then exposed that with very minimal interfaces to cross platform code. This has triggered some very old memories for me, especially the way the application had to use an EXE to overcome the really very silly and restrictive Symbian App limitation of global variables/data.
 
 
 
